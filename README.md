@@ -66,7 +66,7 @@ The following figure shows a schematic representation of the _ground Floor_ with
 </p>
 
 
-### 1.3. Upper Floors for hospitalisations
+### 1.3. Upper Floors for Hospitalisations
 There will be 3 _Floors_ for hospitalisations over the ground floor. These three _Floors_ will have layouts with **2 rows** (_Units_) and **4** _columns_ (_Blocks_). The number and distribution of the _Corridors_ will depend on the number of _Rooms_ on each _Floor_, and it is assigned following the same process as the first version of this software. The total number of _Rooms_ in the hospital is random, but it is approximately **320**. These _Rooms_ will be distributed evenly between the three _Floors_. So, there will be **105** _Rooms_ per _Floor_, approximately.
 
 The 17 _Services_ for hospitalisations will be distributed between these three _Floors_ such that each _Floor_ has **13** _HU_ and none _Service_ is divided between two _Floors_. Specifically, this will be the _Services_ per _Floor_:
@@ -83,6 +83,9 @@ Eac _HU_ will have **8±2** _Rooms_ with the following probability:
 - **6** _Rooms_: 10%
 - **10** _Rooms_: 10%
 
+### 1.4. Changed files
+The changed files are the following:
+- HOLA
   
 ## 2. Installation
 The source code is currently hosted on [github.com/LorenaPujante/HospitalGeneratorRDF](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2).
@@ -91,7 +94,17 @@ The program is in Python 3.10, and no external packages are needed.
 
 
 ## 3. Input
-aaa
+The input for HospitalGeneratorRDF_V2 must be:
+- The two files obtained as output from H-Outbreak: `movements.csv` and `patients.csv`.
+- Two additional files that are obtained by adding new code to H-Outbreak.
+  - `hospital.txt`: It file has a CSV-like representation of the layout of beds and wards from the H-Outbreak output.
+  - `roomsHU.txt`: Each line of this file represets the triplet (_Service_, _HU_ inside the _Service_, number of _Rooms_ of the _HU_)
+
+### 3.1. Modifications over H-Outbreak
+To get the extra files and ,
+we need to modify two files from H-Outbreak: _hospital.py_ and _simulation.py_
+
+
 
 
 ## 4. Execution and Configuration Params
