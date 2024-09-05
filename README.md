@@ -1,1 +1,1 @@
-# HospitalKG_V2
+# HospitalGeneratorRDF_V2
