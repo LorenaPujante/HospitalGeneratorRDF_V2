@@ -19,16 +19,28 @@ We have based several characteristics of the hospital on the main building of th
 - Number of operating theatres.
 - Number of rooms for radiology and other diagnostic imaging techniques (we will call all of them as _radiology_).
 - Number of beds for A&E
-- Number of beds for ICU
+- Number of beds for Intensive Care (IC)
 
 The hospital will have four _Floors_:
 - _**Ground Floor**_: In thi _Floor_ there will be: ICU rooms, A&E rooms, radiology rooms and operating theatres.
 - _**Upper Floor**_: These 3 _Floors_ will be used for hospitalisations.   
 
-Next, there is a brief description of each kind of _Floor_.
+Next, there is a brief description of the services and each kind of _Floor_.
 
-### 1.1. Ground Floor
-a
+### 1.1. Services
+The hospital will have:
+- **17** Services for _Hospitalisations_.
+- **1** Service for _Radiology_.
+- **1** Service for _IC_.
+- **1** Service for _A&E_.
+
+The distribution of _HospitalizationUnits_ of each _Service_ is described in the sections where the _Floor layouts_ presented.
+
+
+### 1.2. Ground Floor
+This _Floor_ has a layout with **2 rows** (_Units_) and _5 columns_ (_Blocks_). In this _Floor_ there will be:
+- _Operating theatres_: **27**
+  - There will be  
 
 
   
