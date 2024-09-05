@@ -74,7 +74,7 @@ The 17 _Services_ for hospitalisations will be distributed between these three _
 - _Floor 2_: **7** _Services_ (_S7_-_S13_), **13** _HU_.
 - _Floor 3_: **3** _Services_ (_S14_-_S16_), **14** _HU_.
 
-We have refined the random _Floor_ generation algorithm to balance the number of _Corridors_ and _Rooms_ per _Area_.
+We have refined the random _Floor_ generation algorithm to balance the number of _Corridors_ and _Rooms_ per _Area_. We have also improved the system to manage the _Event_ creation and the writing of the KG files.
 
 Eac _HU_ will have **8±2** _Rooms_ with the following probability:
 - **8** _Rooms_: 50%
@@ -83,9 +83,7 @@ Eac _HU_ will have **8±2** _Rooms_ with the following probability:
 - **6** _Rooms_: 10%
 - **10** _Rooms_: 10%
 
-### 1.4. Changed files
-The changed files are the following:
-- HOLA
+
   
 ## 2. Installation
 The source code is currently hosted on [github.com/LorenaPujante/HospitalGeneratorRDF](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2).
@@ -101,8 +99,7 @@ The input for HospitalGeneratorRDF_V2 must be:
   - `roomsHU.txt`: Each line of this file represets the triplet (_Service_, _HU_ inside the _Service_, number of _Rooms_ of the _HU_)
 
 ### 3.1. Modifications over H-Outbreak
-To get the extra files and ,
-we need to modify two files from H-Outbreak: _hospital.py_ and _simulation.py_
+To get the extra files and settle some of the specific characteristics of the hospital to create, we need to modify two files from H-Outbreak: _hospital.py_ and _simulation.py_. The code with the changes is in the files (Modifications/mod_hospital.py)[NULL] and (mod_simulation.py)[NULL].
 
 
 
