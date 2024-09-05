@@ -49,14 +49,39 @@ Below, we present the distribution of _HospitalizationUnits_ per _Service_:
   - **1** Services with **6** _HU_. This _Service_ is: _S14_.
 
 
-
-
-
 ### 1.2. Ground Floor
-This _Floor_ has a layout with **2 rows** (_Units_) and _5 columns_ (_Blocks_). In this _Floor_ there will be:
-- _Operating theatres_: **27**
-  - There will be  
+This _Floor_ has a layout with **2 rows** (_Units_) and **5** _columns_ (_Blocks_). In this _Floor_ there will be:
+- _Operating theatres_: **27**. Each operating theatre will have **1 _Bed_**
+- _Rooms for Radiology_: **24**. Each room will have **1 _Bed_**. <br> The distribution of _Rooms_ per _HU_ is:
+  - **1** _HU_ with **8** _Rooms_.
+  - **2** _HU_ with **2** _Rooms_.
+  - **3** _HU_ with **3** _Rooms_.
+- _A&E Rooms_: **4** _Rooms_. Each room will have **4 _Beds_**. In total, there will be **16** _A&E Beds_.
+- _IC Rooms_: **4** _Rooms_. Each room will have **5 _Beds_**. In total, there will be **20** _IC Beds_.    
 
+The following figure shows a schematic representation of the _ground Floor_ with its _Areas_ and the number of _Corridors_ and _Rooms_ in each.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f8c72436-1ac5-465e-919b-fb4648ba5820" alt="Schematic representation of the ground floor">
+</p>
+
+
+### 1.3. Upper Floors for hospitalisations
+There will be 3 _Floors_ for hospitalisations over the ground floor. These three _Floors_ will have layouts with **2 rows** (_Units_) and **4** _columns_ (_Blocks_). The number and distribution of the _Corridors_ will depend on the number of _Rooms_ on each _Floor_, and it is assigned following the same process as the first version of this software. The total number of _Rooms_ in the hospital is random, but it is approximately **320**. These _Rooms_ will be distributed evenly between the three _Floors_. So, there will be **105** _Rooms_ per _Floor_, approximately.
+
+The 17 _Services_ for hospitalisations will be distributed between these three _Floors_ such that each _Floor_ has **13** _HU_ and none _Service_ is divided between two _Floors_. Specifically, this will be the _Services_ per _Floor_:
+- _Floor 1_: **7** _Services_ (_S0_-_S6_), **13** _HU_.
+- _Floor 2_: **7** _Services_ (_S7_-_S13_), **13** _HU_.
+- _Floor 3_: **3** _Services_ (_S14_-_S16_), **14** _HU_.
+
+We have refined the random _Floor_ generation algorithm to balance the number of _Corridors_ and _Rooms_ per _Area_.
+
+Eac _HU_ will have **8±2** _Rooms_ with the following probability:
+- **8** _Rooms_: 50%
+- **7** _Rooms_: 15%
+- **9** _Rooms_: 15%
+- **6** _Rooms_: 10%
+- **10** _Rooms_: 10%
 
   
 ## 2. Installation
