@@ -106,7 +106,7 @@ To get the extra files and settle some of the specific characteristics of the ho
 
 
 ## 4. Execution and Configuration Params
-To run the program, in the terminal, go to the folder containing the program and run: `python main.py`
+To run the program in the terminal, go to the folder containing the program and run: `python main.py`
 
 The main function receives as parameters the following:
 - _index_: Index to start numbering (property _id_) the objects that are created to complete the hospital layout. It is recommended that this index be greater than the last _id_ of the elements in the H-Outrbreak hospital layout.
@@ -121,8 +121,15 @@ In the file [PARAMS.md](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2
 
 
 ## 5. Output
-aaaa
+After running the program, the following folders are created:
+- _OutputCSV_: Folder with the nodes and edges of the graph in the form of CSV files.
+- _OutputRDF_: Folder with the nodes and edges of the RDF knowledge graph in the form of N-Triples files.
+- _OutputRDF_star_: Folder with the nodes and edges of the RDF* knowledge graph in the form of N-Triples files (nodes) and Turtle files (edges).
+- _OutputSummary_: Folder with two summary files:
+  - _EpisodeSummary.txt_: This file shows how many episodes and events there are for each patient with their _description_, _id_, and _start_ and _end dates_. For Events, it also shows their subclass and to which Bed they are connected.
+  - _HospitalSummary.txt_: This file shows a list of all the services, hospital hospitalisation units, and locations. For each element, it presents its id, description and several lists with all the other elements of the spatial dimension to which it is connected.     
 
+Repeated runs will replace existing files.
 
 
 
