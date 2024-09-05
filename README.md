@@ -13,9 +13,25 @@ Below, we present some other related repositories that may be of interest to you
 
 
 ## 1. Changes over HospitalGeneratorRDF
+We have based several characteristics of the hospital on the main building of the Virgen de la Arrixaca University Clinical Hospital, Region of Murcia, Spain. These characteristics are:
+- Number of _Services_ for hospitalisations
+- Number of _HospitalizationUnits_ per _Service_
+- Number of operating theatres.
+- Number of rooms for radiology and other diagnostic imaging techniques (we will call all of them as _radiology_).
+- Number of beds for A&E
+- Number of beds for ICU
+
+The hospital will have four _Floors_:
+- _**Ground Floor**_: In thi _Floor_ there will be: ICU rooms, A&E rooms, radiology rooms and operating theatres.
+- _**Upper Floor**_: These 3 _Floors_ will be used for hospitalisations.   
+
+Next, there is a brief description of each kind of _Floor_.
+
+### 1.1. Ground Floor
 a
 
 
+  
 ## 2. Installation
 The source code is currently hosted on [github.com/LorenaPujante/HospitalGeneratorRDF](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2).
 
