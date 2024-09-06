@@ -1,7 +1,9 @@
 # HospitalGeneratorRDF_V2
 
 **IMPORTANT:** Also read the file [PARAMS.md](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2/blob/main/PARAMS.md)
+
 **IMPORTANT:** The files in the `Program\Input` folder are those used to generate the dataset for the work [~~TODO: HACER PAPER~~](NULL). The files in the `Program\OutputRDF_star` are the dataset used for the experiments in [~~TODO: HACER PAPER~~](NULL).
+
 
 **HospitalGeneratorRDF_V2** is an updated version of the software presented in [HospitalGeneratorRDF](https://github.com/LorenaPujante/HospitalGeneratorRDF). Compared to the previous version, the changes are related to achieving a hospital design with some specific characteristics. This software has been used in the work "TODO: HACER PAPER" with DOI [~~doi: TODO~~](NULL) to create the dataset used for the experiments. 
 
