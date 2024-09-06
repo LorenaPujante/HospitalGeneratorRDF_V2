@@ -1,0 +1,21 @@
+id,description,abbreviation
+1200,Emergency Service,ER
+1202,Intensive Care Unit Service,ICU
+1204,Radiology Service,RAD
+2,Service 0,S0
+3,Service 1,S1
+4,Service 2,S2
+5,Service 3,S3
+6,Service 4,S4
+7,Service 5,S5
+8,Service 6,S6
+9,Service 7,S7
+10,Service 8,S8
+11,Service 9,S9
+12,Service 10,S10
+13,Service 11,S11
+14,Service 12,S12
+15,Service 13,S13
+16,Service 14,S14
+17,Service 15,S15
+18,Service 16,S16

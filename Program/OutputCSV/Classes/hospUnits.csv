@@ -1,0 +1,68 @@
+id,description,abbreviation
+1201,Emergency Unit,ERU
+1203,Intensive Care Unit,ICUU
+1205,Radiology Unit 0,RADU0
+1206,Radiology Unit 1,RADU1
+1207,Radiology Unit 2,RADU2
+1208,Radiology Unit 3,RADU3
+1209,Radiology Unit 4,RADU4
+1210,Radiology Unit 5,RADU5
+1220,HospUnit 0A,HU0A
+1221,HospUnit 1A,HU1A
+1222,HospUnit 2A,HU2A
+1223,HospUnit 2B,HU2B
+1224,HospUnit 3A,HU3A
+1225,HospUnit 3B,HU3B
+1226,HospUnit 3C,HU3C
+1227,HospUnit 4A,HU4A
+1228,HospUnit 4B,HU4B
+1229,HospUnit 4C,HU4C
+1230,HospUnit 5A,HU5A
+1231,HospUnit 6A,HU6A
+1232,HospUnit 6B,HU6B
+1233,HospUnit 7A,HU7A
+1234,HospUnit 7B,HU7B
+1235,HospUnit 7C,HU7C
+1236,HospUnit 7D,HU7D
+1237,HospUnit 8A,HU8A
+1238,HospUnit 8B,HU8B
+1239,HospUnit 9A,HU9A
+1240,HospUnit 9B,HU9B
+1241,HospUnit 9C,HU9C
+1242,HospUnit 10A,HU10A
+1243,HospUnit 11A,HU11A
+1244,HospUnit 12A,HU12A
+1245,HospUnit 13A,HU13A
+1246,HospUnit 14A,HU14A
+1247,HospUnit 14B,HU14B
+1248,HospUnit 14C,HU14C
+1249,HospUnit 14D,HU14D
+1250,HospUnit 14E,HU14E
+1251,HospUnit 14F,HU14F
+1252,HospUnit 15A,HU15A
+1253,HospUnit 15B,HU15B
+1254,HospUnit 15C,HU15C
+1255,HospUnit 15D,HU15D
+1256,HospUnit 15E,HU15E
+1257,HospUnit 16A,HU16A
+1258,HospUnit 16B,HU16B
+1259,HospUnit 16C,HU16C
+1286,Surgery Unit ER,SURGU_ER
+1287,Surgery Unit ICU,SURGU_ICU
+1288,Surgery Unit S0,SURGU_S0
+1289,Surgery Unit S1,SURGU_S1
+1290,Surgery Unit S2,SURGU_S2
+1291,Surgery Unit S3,SURGU_S3
+1292,Surgery Unit S4,SURGU_S4
+1293,Surgery Unit S5,SURGU_S5
+1294,Surgery Unit S6,SURGU_S6
+1295,Surgery Unit S7,SURGU_S7
+1296,Surgery Unit S8,SURGU_S8
+1297,Surgery Unit S9,SURGU_S9
+1298,Surgery Unit S10,SURGU_S10
+1299,Surgery Unit S11,SURGU_S11
+1300,Surgery Unit S12,SURGU_S12
+1301,Surgery Unit S13,SURGU_S13
+1302,Surgery Unit S14,SURGU_S14
+1303,Surgery Unit S15,SURGU_S15
+1304,Surgery Unit S16,SURGU_S16
