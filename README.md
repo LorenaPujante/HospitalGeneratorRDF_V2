@@ -68,6 +68,7 @@ The following figure shows a schematic representation of the _ground Floor_ with
   <img src="https://github.com/user-attachments/assets/f8c72436-1ac5-465e-919b-fb4648ba5820" alt="Schematic representation of the ground floor">
 </p>
 
+To finish this section, we have defined 4 _LogicZones_. Each one covers one of the spaces in this _Floor_, that is, one for surgery, one for radiology, one for A&E and one for IC. 
 
 ### 1.3. Upper Floors for Hospitalisations
 There will be 3 _Floors_ for hospitalisations over the ground floor. These three _Floors_ will have layouts with **2 rows** (_Units_) and **4** _columns_ (_Blocks_). The number and distribution of the _Corridors_ will depend on the number of _Rooms_ on each _Floor_, and it is assigned following the same process as the first version of this software. The total number of _Rooms_ in the hospital is random, but it is approximately **320**. These _Rooms_ will be distributed evenly between the three _Floors_. So, there will be **105** _Rooms_ per _Floor_, approximately.
