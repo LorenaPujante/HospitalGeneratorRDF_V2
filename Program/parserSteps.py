@@ -31,7 +31,7 @@ def parseSteps(dicPatients):
                     patientId = int(line[i])
                     seirdState = int(line[i+1])
                     if seirdState == 4:    # DEATH Event
-                        i += 3
+                        i +=4
                     else:
                         locationId = int(line[i+2])
 
@@ -41,6 +41,8 @@ def parseSteps(dicPatients):
                         i += 4 
 
                         # It is ONLY intended for PATIENTS WITH 1 EPISODE
+                    if seirdState == 5: # El estado 5 es NON-SUSCEPTIBLE - Para ahorrarnos historias, lo ponemos como si fuera Susceptible (0) en la BD, quedandose el resto de estados sin tocar
+                        seirdState = 0
                     if patient.seird[seirdState] is None:
                             patient.seird[seirdState] = step
 
