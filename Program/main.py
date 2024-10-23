@@ -18,7 +18,7 @@ from writerUnion import unionFiles
 ##  MAIN  ##
 ############
 
-def main(index, huPerService, nFloors, huPerFloor, nRows, nColumns, startDateTime, optionFloorHU):
+def main(index, nFloors, huPerFloor, nRows, nColumns, startDateTime):
 
     # Input of index to start numbering the objects that are created
     #index = readIndex()
@@ -33,7 +33,7 @@ def main(index, huPerService, nFloors, huPerFloor, nRows, nColumns, startDateTim
     dicServsHusRooms = getNumHUsAndRoomsPerOrdService()
     
     # PARSE OF THE INPUT
-    dicBeds, dicRooms, roomsER, roomsIC, index = parseHospital(dicHospUnits, dicServices, huPerService, dicServsHusRooms, index)
+    dicBeds, dicRooms, roomsER, roomsIC, index = parseHospital(dicHospUnits, dicServices, dicServsHusRooms, index)
 
     # CREATE SURGERY UNITS FOR ALL THE SERVICES EXCEPT RADIOLOGY (AND SURGERY)
     husSurgery, index = createSurgeryHUs(dicHospUnits, dicServices, index)
@@ -132,17 +132,17 @@ def main(index, huPerService, nFloors, huPerFloor, nRows, nColumns, startDateTim
     
     
     # PRINT CSV
-    setFolderOutputCSV(".\\OutputCSV")
+    '''setFolderOutputCSV(".\\OutputCSV")
     printCSV(dicServices, dicHospUnits, dicBuildings, dicFloors, dicUnits, dicBlocks, dicAreas, dicCorridors, dicRooms, dicBeds, dicLogicZones, dicPatients, dicMicroorganisms)
-    print(" * CSV Files : Completed")
+    print(" * CSV Files : Completed")'''
 
     # PRINT NT
-    dirNT = ".\\OutputRDF"
+    '''dirNT = ".\\OutputRDF"
     setFolderOutputRDF(dirNT)
     printRDF(dicServices, dicHospUnits, dicBuildings, dicFloors, dicUnits, dicBlocks, dicAreas, dicCorridors, dicRooms, dicBeds, dicLogicZones, dicPatients, dicMicroorganisms)
     print(" * RDF Files : Completed")
             # File union
-    unionFiles(dirNT, False)
+    unionFiles(dirNT, False)'''
 
 
     # PRINT NT-Star
@@ -167,27 +167,23 @@ if __name__ == '__main__':
     # PARAMS
             # The folders where the result files are created are not parameters     
     index = 1200
-    huPerService = 2
-    nFloors = 4
+    nFloors = 4     # 3+1
     huPerFloor = 13
     nRows = 2
     nColumns = 4
-    startDateTime = datetime(2023,1,1,8,0,0)    # 01-01-2023 08:00:00   # dd/mm/yyyy HH:MM:SS
+    startDateTime = datetime(2024,1,1,8,0,0)    # 01-01-2024 08:00:00   # dd/mm/yyyy HH:MM:SS
+    
     optionFloorUH = 2 #None    # If None, then the option will be asked by terminal
 
     params = []
-    paramsLinea = []
-    paramsLinea.append(index)
-    paramsLinea.append(huPerService)
-    paramsLinea.append(nFloors)
-    paramsLinea.append(huPerFloor)
-    paramsLinea.append(nRows)
-    paramsLinea.append(nColumns)
-    paramsLinea.append(startDateTime)
-    paramsLinea.append(optionFloorUH)
-    params.append(paramsLinea)
-
-    main(params[0][0], params[0][1], params[0][2], params[0][3], params[0][4], params[0][5], params[0][6], params[0][7])    
+    params.append(index)
+    params.append(nFloors)
+    params.append(huPerFloor)
+    params.append(nRows)
+    params.append(nColumns)
+    params.append(startDateTime)
+    
+    main(params[0], params[1], params[2], params[3], params[4], params[5])    
 
 
 
