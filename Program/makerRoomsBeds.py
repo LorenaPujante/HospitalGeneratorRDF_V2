@@ -1794,9 +1794,9 @@ def setRooms_G2(listRooms, corridorsHoriz, corridorsVert):
     # Internal neighbours
     setNextTo_intern_GH_2(listRooms)
 
-def setRooms_G3(listRooms, corridorsHoriz, corridorsVert):
+def setRooms_G3(listRooms, corridorsHoriz, corridorsVert):  # TODO: A veces da error, pero se vuelve a ejecutar y santas pascuas
     insertRooms_GH_3(listRooms, corridorsHoriz, corridorsVert)        
-
+    
     # Border rooms
     corridorsHoriz[0].roomsBorder['rightTop'] = listRooms[12]
     corridorsHoriz[0].roomsBorder['rightBottom'] = listRooms[13]
