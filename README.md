@@ -15,7 +15,9 @@ Since H-Outbreak does not cover all the classes and relations from the data mode
 Below, we present some other related repositories that may be of interest to you:
 - [**HospitalKG_changes**](https://github.com/LorenaPujante/HospitalKG_Changes): It is also linked to [~~doi: TODO~~](NULL).
 - [**HospitalEdgeWeigths**](https://github.com/LorenaPujante/HospitalEdgeWeigths): It is also linked to [~~doi: TODO~~](NULL).
+- [**STeMECH**](https://github.com/LorenaPujante/STeMECH): Code for [~~doi: TODO~~](NULL).
 - [**HospitalGeneratorRDF**](https://github.com/LorenaPujante/HospitalGeneratorRDF): Previous version of this software. In the folder _Description_ of this repository, there is an exhaustive description of how the process of generating random hospitals works.
+
 
 
 ## 1. Changes over HospitalGeneratorRDF
