@@ -2,7 +2,7 @@ from classes import *
 from alphabets import *
 
 
-def parseHospital(dicHospUnits, dicServices, huPerService, dicServsHusRooms, index):
+def parseHospital(dicHospUnits, dicServices, dicServsHusRooms, index):
 
     # Results
     dicRooms = {}
