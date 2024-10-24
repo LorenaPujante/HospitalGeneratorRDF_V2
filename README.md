@@ -1,15 +1,16 @@
 # HospitalGeneratorRDF_V2
 
-**IMPORTANT:** Also read the file [PARAMS.md](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2/blob/main/PARAMS.md)
-
-**IMPORTANT:** The files in the `Program\Input` folder are those used to generate the dataset for the work [~~TODO: HACER PAPER~~](NULL). The files in the `Program\OutputRDF_star` are the dataset used for the experiments in [~~TODO: HACER PAPER~~](NULL).
-
-
 **HospitalGeneratorRDF_V2** is an updated version of the software presented in [HospitalGeneratorRDF](https://github.com/LorenaPujante/HospitalGeneratorRDF). Compared to the previous version, the changes are related to achieving a hospital design with some specific characteristics. This software has been used in the work "TODO: HACER PAPER" with DOI [~~doi: TODO~~](NULL) to create the dataset used for the experiments. 
 
 As its previous version, **HospitalGeneratorRDF_V2** is a software that, based on the output of [_H-Outbreak_](https://github.com/denissekim/Simulation-Model) (a simulation model of the movements of patients inside a hospital), creates a knowledge graph (KG) in RDF and RDF* according to the data model presented in "_Spatiotemporal Data Modelling for Epidemiological Research in Hospitals_" ([10.1109/JBHI.2024.3417224](https://ieeexplore.ieee.org/document/10568325)) with the little changes presented in [HospitalKG_changes](https://github.com/LorenaPujante/HospitalKG_Changes).
 
 Since H-Outbreak does not cover all the classes and relations from the data model, HospitalGeneratorRDF completes it by adding _Floors_, _Areas_, _Corridors_, _Rooms_, _Beds_, _Services_ and _HospitalizationUnits_, and the relations between them. It also creates different subclasses of _Events_: _Hospitalization_, _Radiology_, _Surgery_ and _Death_.
+
+
+**IMPORTANT:** Also read the file [PARAMS.md](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2/blob/main/PARAMS.md)
+
+**IMPORTANT:** The files in the `Program\Input` folder are those used to generate the dataset for the work [~~TODO: HACER PAPER~~](NULL). The files in the `Program\OutputRDF_star` are the dataset used for the experiments in [~~TODO: HACER PAPER~~](NULL).
+
 
 ## 0. Related Repositories
 Below, we present some other related repositories that may be of interest to you:
@@ -143,8 +144,6 @@ Repeated runs will replace existing files.
 **The output folders must be created before running the code for the first time.**
 
 **Inside each folder there must be another two folders: _Classes_ and _Relations_. The also must be created before running the code for the first time.**
-
-In this git repository, there is the output as an RDF* ontology used as the dataset for [~~doi: TODO~~](NULL).   
 
 
 
