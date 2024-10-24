@@ -107,6 +107,8 @@ The input for HospitalGeneratorRDF_V2 must be:
   - `hospital.txt`: It file has a CSV-like representation of the layout of beds and wards from the H-Outbreak output.
   - `roomsHU.txt`: Each line of this file represets the triplet (_Service_, _HU_ inside the _Service_, number of _Rooms_ of the _HU_)
 
+The input data used to generate the data for [~~doi: TODO~~](NULL) is in the directory [Program/Input](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2/tree/main/Program/Input)
+
 ### 3.1. Modifications over H-Outbreak
 To get the extra files and settle some of the specific characteristics of the hospital to create, we need to modify two files from H-Outbreak: _hospital.py_ and _simulation.py_. The code with the changes is in the files [Modifications/mod_hospital.py](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2/blob/main/Modifications/mod_hospital.py) and [Modifications/mod_simulation.py](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2/blob/main/Modifications/mod_simulation.py).
 
