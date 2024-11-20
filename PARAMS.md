@@ -4,7 +4,7 @@ In this file, we present the values for the parameters of H-Outbreak and Hospita
 ## 1. Parameters of H-Outbreak
 - _n_patients_: 0.7
 - _steps_: 270,      `# 1 Step = 8 hours     # 1 Day = 3 steps     # 3 Months = 3 months * 30 days * 3 steps = 270 steps`
-- _population_: 400000
+- _population_: 250000
 - _step_time_: 8     `# hours`
 - _init_exposed_: 1
 - _init_infected_: 0
