@@ -20,9 +20,9 @@ In this file, we present the values for the parameters of H-Outbreak and Hospita
 - _prob_p-env_max_: 0.9
 - _prob_p-env_mean_: 0.52
   
-- _prob_env-p_min_: 0.4
-- _prob_env-p_max_: 0.6
-- _prob_env-p_mean_: 0.5
+- _prob_env-p_min_: 0.326
+- _prob_env-p_max_: 0.544
+- _prob_env-p_mean_: 0.435
   
 - _prob_pe_min_: 0.3
 - _prob_pe_max_: 0.4
@@ -48,7 +48,7 @@ In this file, we present the values for the parameters of H-Outbreak and Hospita
 - _max_ward_movements_: 8     `# 17 Servs (Ward) and 41 HUs     # ~8 Rooms/HU    # 2 Beds/Room    # ~8*41*2 = 656 Beds    # ~656/17 = 38 Beds/Ward    # 20% = 38*20/100 = 7.6 ~ 8`
 - _max_steps_er_icu_: 3       `# 1 Day`
 - _max_movements_room_: 30    `# ~656 Beds = Patients  # 5% = 656*5/100 ~= 30`
-- _occupancy_icu_: 0.9
+- _occupancy_icu_: 0.46
 
 ## 2. parameters of HospitalGenerator_V2
 - _index_: 1200
