@@ -65,8 +65,8 @@ This _Floor_ has a layout with **2 rows** (_Units_) and **5** _columns_ (_Blocks
   - **1** _HU_ with **8** _Rooms_.
   - **2** _HU_ with **2** _Rooms_.
   - **3** _HU_ with **3** _Rooms_.
-- _A&E Rooms_: **4** _Rooms_. Each room will have **5 _Beds_**. In total, there will be **16** _A&E Beds_.
-- _IC Rooms_: **4** _Rooms_. Each room will have **4 _Beds_**. In total, there will be **20** _IC Beds_.    
+- _A&E Rooms_: **4** _Rooms_. Each room will have **5 _Beds_**. In total, there will be **20** _A&E Beds_.
+- _IC Rooms_: **4** _Rooms_. Each room will have **4 _Beds_**. In total, there will be **16** _IC Beds_.    
 
 The following figure shows a schematic representation of the _ground Floor_ with its _Areas_ and the number of _Corridors_ and _Rooms_ in each.
 
